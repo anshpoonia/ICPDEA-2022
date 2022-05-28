@@ -76,12 +76,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 6rem;
-    background: url("home/abstractBackground9.png");
+    background: url("home/images/1.jpg");
 }
 
 .hero-section .content-holder{
     grid-column: 2/3;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(238, 238, 238, 0.9);
     display: grid;
     grid-template-rows: 3fr 2fr;
     padding: 1rem;
@@ -91,7 +91,8 @@ body{
 
 .hero-section .content-holder .heading{
 
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 1.5;
     text-align: center;
     display: flex;
     align-items: center;
@@ -116,7 +117,7 @@ body{
 }
 
 .section .title{
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     font-weight: bold;
     padding: 1rem 0 0.5rem 0 ;
     border: black solid;
@@ -125,11 +126,13 @@ body{
 
 .section .content{
     margin-top: 2rem;
+    line-height: 1.5;
 }
 
 .section .content .list{
     margin-left: 2rem;
 }
+
 
 .section .content .list li{
     margin-top: 1rem;
@@ -178,6 +181,43 @@ body{
 
 .addTop{
     margin-top: 80px;
+}
+
+.form-list{
+    list-style: none;
+}
+
+#registration-form input{
+    font-size: 1rem;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: solid 1px rgba(33, 150, 243, 0.4);
+    border-radius: 4px;
+    background-color: rgba(101, 108, 121, 0.1);
+    width: 20rem;
+
+
+}
+
+#registration-form select{
+    font-size: 1rem;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-color: rgba(33, 150, 243, 0.4);
+    border-radius: 4px;
+    background-color: rgba(101, 108, 121, 0.1);
+    width: 20rem;
+}
+
+#registration-form button{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
