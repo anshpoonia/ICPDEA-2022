@@ -34,6 +34,5 @@ async function submitForm(e)
 
     })
 
-    console.log("Registered");
-
+    form.innerHTML = `<p class='content'>Thank you for registering.</p>`
 }
