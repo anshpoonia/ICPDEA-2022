@@ -10,11 +10,11 @@ const form = document.getElementById('registration-form');
 
 form.addEventListener('submit', ev => submitForm(ev))
 
-function submitForm(e)
+async function submitForm(e)
 {
     e.preventDefault();
 
-    fetch("https://icpdea.herokuapp.com/api/registration", {
+    const a = await fetch("https://icpdea.herokuapp.com/api/registration", {
         method: 'POST',
         mode: 'no-cors',
         headers: {
@@ -33,11 +33,7 @@ function submitForm(e)
         })
 
     })
-        .then(res => res.json())
-        .then(data => {
-            if(data.code === "SUCCESS")
-            {
-                form.innerHTML = `<p class='content'>Thank you for registering.</p>`
-            }
-        })
+
+    console.log("Registered");
+
 }
