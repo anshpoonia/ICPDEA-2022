@@ -16,8 +16,6 @@ function submitForm(e)
 
     fetch("https://icpdea.herokuapp.com/api/registration", {
         method: 'POST',
-        redirect: 'follow',
-        credentials: 'include',
         headers: {
             'Content-Type': 'application/json'
         },
