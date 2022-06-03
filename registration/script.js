@@ -16,7 +16,9 @@ function submitForm(e)
 
     fetch("https://icpdea.herokuapp.com/api/registration", {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
+
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
