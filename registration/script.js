@@ -16,10 +16,9 @@ async function submitForm(e)
 
     const a = await fetch("https://icpdea.herokuapp.com/api/registration", {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
 
-            'Content-Type': 'application/json'
+            'Content-Type': 'text/plain'
         },
         body: JSON.stringify({
             name: document.querySelector('#registration-form .name').value,
