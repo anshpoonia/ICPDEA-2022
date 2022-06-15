@@ -23,6 +23,7 @@ async function submitForm(e)
         body: JSON.stringify({
             name: document.querySelector('#registration-form .name').value,
             affiliation: document.querySelector('#registration-form .affiliation').value,
+            designation: document.querySelector("#registration-form .designation").value,
             email: document.querySelector('#registration-form .email').value,
             phone: document.querySelector('#registration-form .phone').value,
             country: document.querySelector('#registration-form .country').value,

@@ -10,6 +10,16 @@ body{
     font-family: Montserrat, sans-serif;
 }
 
+.logo{
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
 .topNavBar{
     position: fixed;
     top: 0;
@@ -158,6 +168,15 @@ body{
     margin-bottom: 1rem;
 }
 
+.inner-list{
+    padding-left: 2rem;
+}
+
+.localOrganizingCommittee div, .localOrganizingCommittee ul{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
 
 
 .footer{
@@ -219,6 +238,23 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.deadline-table{
+    min-width: 80%;
+    column-gap: 0;
+    border-collapse: collapse;
+}
+
+.deadline-table tr{
+    height: 3rem;
+}
+
+.deadline-table td{
+    border-bottom: 1px rgba(0,0,0,0.3) solid;
+}
+
+
+
 
 
 
