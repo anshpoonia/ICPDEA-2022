@@ -10,6 +10,8 @@ const form = document.getElementById('registration-form');
 
 form.addEventListener('submit', ev => submitForm(ev))
 
+form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid.<br> You can find steps for payment <a href="../registration">here.</a></p>`
+
 async function submitForm(e)
 {
     e.preventDefault();
@@ -34,5 +36,5 @@ async function submitForm(e)
 
     })
 
-    form.innerHTML = `<p class='content'>Thank you for registering.</p>`
+    form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid. You can find steps for payment <a href="../registration">here.</a></p>`
 }
