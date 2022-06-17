@@ -5,6 +5,7 @@ form.addEventListener('submit', ev => submitForm(ev))
 
 async function submitForm(e)
 {
+    document.querySelector('#button').disabled = true;
     e.preventDefault();
 
     const a = await fetch("https://icpdea.herokuapp.com/api/registration", {
@@ -27,5 +28,5 @@ async function submitForm(e)
 
     })
 
-    form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid. You can find steps for payment <a href="../registration">here.</a></p>`
+    form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid.<br>You can find steps for payment <a href="../registration">here.</a></p>`
 }
