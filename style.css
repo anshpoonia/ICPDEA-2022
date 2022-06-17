@@ -198,6 +198,10 @@ body{
     line-height: 2rem;
 }
 
+.footer a{
+    color: rgb(195, 195, 255);
+}
+
 .addTop{
     margin-top: 80px;
 }
@@ -240,7 +244,7 @@ body{
 }
 
 .deadline-table{
-    min-width: 80%;
+    min-width: 100%;
     column-gap: 0;
     border-collapse: collapse;
 }
@@ -300,6 +304,10 @@ body{
     .section-grid{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .deadline-table{
+        min-width: 80%;
     }
 
 }
