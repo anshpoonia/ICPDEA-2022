@@ -107,7 +107,7 @@ body{
 
 .hero-section .content-holder .heading{
 
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.5;
     text-align: center;
     display: flex;
@@ -118,7 +118,7 @@ body{
 
 }
 
-.hero-section .description{
+.hero-section .content-holder .description{
     margin-bottom: 3rem;
 }
 
@@ -128,7 +128,7 @@ body{
 
 .hero-section .content-holder ul li{
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 2.5rem;
 }
 
