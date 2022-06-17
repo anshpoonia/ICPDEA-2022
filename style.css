@@ -272,6 +272,11 @@ body{
     padding: 10px;
 }
 
+.content img{
+    height: 300px;
+    width: 400px;
+}
+
 
 
 
@@ -316,6 +321,19 @@ body{
     
 }
 
+@media (max-width: 1000px) {
+    .hero-section{
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+
+    .hero-section{
+        grid-template-columns: 1fr;
+        padding: 0 2rem;
+    }
+
+}
+
 @media (max-width: 900px) {
     .section-grid{
         display: grid;
@@ -328,11 +346,37 @@ body{
 
 }
 
-@media (max-width: 800px) {
-    .hero-section{
-        grid-template-columns: 1fr;
-        padding: 0 2rem;
+@media (max-width: 623px) {
+    #registration-form{
+        margin-top: 10rem;
+    }
+
+    #registration-form input{
+        width: 80%;
+    }
+
+    #registration-form select{
+        width: 80%;
     }
 
 }
+
+@media (max-width: 550px) {
+    .hero-section .content-holder .heading{
+        font-size: 1.8rem;
+    }
+
+    .hero-section .content-holder ul li{
+        font-size: 1.4rem;
+    }
+
+    .content img{
+        width: 100%;
+        height: 250px;
+    }
+
+
+
+}
+
 
