@@ -91,7 +91,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 6rem;
-    background: url("images/2.jpg");
+    background: url("images/4.jpg");
     background-size: cover;
 }
 
