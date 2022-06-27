@@ -28,5 +28,5 @@ async function submitForm(e)
 
     })
 
-    form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid.<br>You can find steps for payment <a href="../registration">here.</a></p>`
+    form.innerHTML = `<p class='content'>Thank you for registering. You will get conformation of your registration in 2-3 days after payment of registration fees has been paid.<br>You can pay registration fee by <a href="https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=5">clicking here</a> </p>`
 }

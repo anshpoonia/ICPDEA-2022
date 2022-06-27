@@ -13,10 +13,10 @@ body{
 
 .logo{
     position: fixed;
-    top: 11px;
+    top: 0px;
     left: 10px;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 150px;
     border-radius: 50%;
     z-index: 2;
 }
@@ -38,7 +38,7 @@ body{
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 110px;
 }
 
 .topNavBar a{
@@ -85,7 +85,7 @@ body{
 }
 
 .hero-section{
-    height: 600px;
+    height: 400px;
     width: 100%;
     margin-top: 100px;
     display: grid;
@@ -97,9 +97,9 @@ body{
 
 .hero-section .content-holder{
     grid-column: 2/3;
-    background-color: rgba(238, 238, 238, 0.9);
+    background-color: rgba(238, 238, 238, 0.8);
     display: grid;
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 5fr 2fr;
     padding: 1rem;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@ body{
 
 .hero-section .content-holder .heading{
 
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     text-align: center;
     display: flex;
@@ -119,7 +119,7 @@ body{
 }
 
 .hero-section .content-holder .description{
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 
 .hero-section .content-holder ul{
@@ -128,7 +128,7 @@ body{
 
 .hero-section .content-holder ul li{
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     line-height: 2.5rem;
 }
 
@@ -184,8 +184,6 @@ body{
 
 .localOrganizingCommittee div, .localOrganizingCommittee ul{
     padding-left: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
 }
 
 
