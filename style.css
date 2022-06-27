@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
-    background-color: #2196f3;
+    background-color: #EEC519;
 
 }
 
@@ -188,7 +188,7 @@ body{
 
 
 .footer{
-    background-color: #656c79;
+    background-color: #4F5052;
     color: white;
 }
 
@@ -240,7 +240,7 @@ body{
 
 #registration-form button{
     padding: 0.5rem 2rem 0.5rem 2rem;
-    background-color: #2196f3;
+    background-color: #EEC519;
     border: none;
     color: white;
     font-size: 1.1rem;
@@ -299,7 +299,7 @@ body{
     .navBarLinks{
         position: absolute;
         flex-direction: column;
-        background-color: #2196f3;
+        background-color: #EEC519;
         border-radius: 1rem;
         right: 0;
         top: 65px;
