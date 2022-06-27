@@ -28,7 +28,7 @@ body{
     right: 0;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     background-color: #2196f3;
 
 }
@@ -38,7 +38,7 @@ body{
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 110px;
+    margin-left: 160px;
 }
 
 .topNavBar a{
@@ -360,12 +360,19 @@ body{
 }
 
 @media (max-width: 550px) {
-    .hero-section .content-holder .heading{
-        font-size: 1.8rem;
+
+    .logo{
+        height: 50px;
+        width: 120px;
     }
 
-    .hero-section .content-holder ul li{
-        font-size: 1.4rem;
+    .topNavBar .title{
+        font-size: 1.5rem;
+        margin-left: 120px;
+    }
+
+    .topNavBar .menu-button{
+        justify-self: left;
     }
 
     .content img{
