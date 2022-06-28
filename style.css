@@ -35,7 +35,7 @@ body{
 
 .topNavBar .title{
     text-decoration: none;
-    color: white;
+    color: #4F5052;
     font-size: 2rem;
     font-weight: bold;
     margin-left: 160px;
@@ -43,7 +43,7 @@ body{
 
 .topNavBar a{
     text-decoration: none;
-    color: white;
+    color: #4F5052;
     font-size: 2rem;
 }
 
@@ -140,8 +140,9 @@ body{
     font-size: 1.15rem;
     font-weight: bold;
     padding: 1rem 0 0.5rem 0 ;
-    border: black solid;
+    border: #4F5052 solid;
     border-width: 0 0 2px 0;
+    color: #4F5052;
 }
 
 .section .content{
