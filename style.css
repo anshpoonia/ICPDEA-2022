@@ -7,6 +7,7 @@
     font-size: 14px;
 }
 
+
 body{
     font-family: Montserrat, sans-serif;
 }
@@ -276,8 +277,9 @@ body{
     width: 400px;
 }
 
-
-
+#team-list li{
+    margin-top: 0.1rem;
+}
 
 
 
