@@ -281,10 +281,24 @@ body{
     margin-top: 0.1rem;
 }
 
+#participantsList table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#participantsList td, th{
+    border-bottom: 1px solid rgba(150, 150, 150, 0.8);
+    padding: 1.3rem;
+}
+
+#participantsList th{
+    text-align: start;
+}
 
 
 
-@media (max-width: 1200px) {
+
+@media (max-width: 1300px) {
     .menu-button{
         padding: 0 0.5rem;
         border-radius: 0.3rem;
