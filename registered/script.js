@@ -9,7 +9,7 @@ loadData()
 
 async function loadData()
 {
-    const res = await fetch('http://10.7.10.95:2000/api/candidates',
+    const res = await fetch('https://icpdea.herokuapp.com/api/candidates',
         {
             method: 'GET',
             headers: {
