@@ -295,6 +295,11 @@ body{
     text-align: start;
 }
 
+.industry-speakers-list{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
 
 
 
@@ -399,6 +404,12 @@ body{
     .content img{
         width: 100%;
         height: 250px;
+    }
+
+    .industry-speakers-list
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 200px;
     }
 
 
